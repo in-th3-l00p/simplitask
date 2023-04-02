@@ -1,0 +1,22 @@
+.title {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    user-select: none;
+}
+
+.spinner {
+    width: 50px;
+    aspect-ratio: 1/1;
+    border: 5px solid #ccc;
+    border-top: 5px solid dodgerblue;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
